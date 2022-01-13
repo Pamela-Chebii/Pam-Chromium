@@ -1,0 +1,25 @@
+form{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+label{
+    display: inline-block;
+    padding: 12px 12px;
+}
+.inputstyle{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+#thebutton{
+    background-color: blueviolet;
+    float: right;
+    padding: 12px;
+    width: 40%;
+
+
+}
