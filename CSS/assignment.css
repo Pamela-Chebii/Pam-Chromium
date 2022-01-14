@@ -16,3 +16,6 @@ label{
     box-sizing: border-box;
     margin: 5px;
 }
+img{
+    float: right;
+}
