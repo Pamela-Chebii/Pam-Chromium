@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Rescue GBV</title>
+  <link rel="stylesheet" href="CSS/hrstyles.css">
+</head>
+<body>
+<nav>
+  <ul class="styleul">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home">
+  <div class="homepage">
+    <div class="hrstext">
+      <h1> We help, call us</h1>
+      <h2>Rescuing you, GBV</h2>
+      <button class="buttonhr">Call Us Now</button>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="about">
+  <h1 class="center">About Page</h1>
+  <div class="flexbox">
+     <div>
+       <h3 class="center">Our Values</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         A aliquid architecto aspernatur autem cumque cupiditate delectus
+         deleniti est eum illum itaque magnam
+         minus nam nobis obcaecati soluta veritatis, voluptate voluptatem.
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Cupiditate error facilis magni maxime porro?
+         Aliquam aliquid, consequatur corporis dicta doloribus eius eos iusto magni obcaecati,
+         optio quidem reprehenderit soluta, vitae.</p>
+     </div>
+    <div>
+      <h3 class="center">Our Mission</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        A aliquid architecto aspernatur autem cumque cupiditate delectus
+        deleniti est eum illum itaque magnam
+        minus nam nobis obcaecati soluta veritatis, voluptate voluptatem.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Cupiditate error facilis magni maxime porro?
+        Aliquam aliquid, consequatur corporis dicta doloribus eius eos iusto magni obcaecati,
+        optio quidem reprehenderit soluta, vitae.</p>
+    </div>
+    <div>
+      <h3 class="center">Our Goals</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        A aliquid architecto aspernatur autem cumque cupiditate delectus
+        deleniti est eum illum itaque magnam
+        minus nam nobis obcaecati soluta veritatis, voluptate voluptatem.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Cupiditate error facilis magni maxime porro?
+        Aliquam aliquid, consequatur corporis dicta doloribus eius eos iusto magni obcaecati,
+        optio quidem reprehenderit soluta, vitae.</p>
+    </div>
+  </div>
+
+
+</section>
+<section id="gallery">
+  <h1 class="center">Our Gallery</h1>
+  <div class="flexbox">
+    <div>
+      <img src="Images/resue1.png" alt="Loading" height="300" width="300">
+      <p>perferendis quasi rerum similique vel voluptatum</p>
+    </div>
+    <div>
+      <img src="Images/Gbv.png" alt="Loading" height="300" width="300">
+      <p>perferendis quasi rerum similique vel voluptatum</p>
+    </div>
+    <div>
+      <img src="Images/gbv%20stop.png" alt="Loading" height="300" width="300">
+      <p>perferendis quasi rerum similique vel voluptatum</p>
+    </div>
+    <div>
+      <img src="Images/women.png" alt="Loading" height="300" width="300">
+      <p>perferendis quasi rerum similique vel voluptatum</p>
+    </div>
+
+  </div>
+  <div class="flexbox">
+    <div>
+      <img src="Images/violence.png" alt="Loading" height="300" width="300">
+      <p>perferendis quasi rerum similique vel voluptatum</p>
+    </div>
+    <div>
+      <img src="Images/homerescue.png" alt="Loading" height="300" width="300">
+      <p>perferendis quasi rerum similique vel voluptatum</p>
+    </div>
+    <div>
+      <img src="Images/homerescue.png" alt="Loading" height="300" width="300">
+      <p>perferendis quasi rerum similique vel voluptatum</p>
+    </div>
+    <div>
+      <img src="Images/gbv%20emergencies.png" alt="Loading" height="300" width="300">
+      <p>perferendis quasi rerum similique vel voluptatum</p>
+    </div>
+
+  </div>
+
+<section id="contact">
+  <h1 class="center">Fill this form to get in touch</h1>
+  <div class="container">
+
+
+    <form action="#">
+
+      <div class="row">
+
+        <div class="col-20">
+          <label>First Name</label>
+        </div>
+        <div class="col-80">
+          <input type="text" name="Fname" placeholder="John">
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-20">
+          <label>Last Name</label>
+        </div>
+        <div class="col-80">
+          <input type="text" name="lname" placeholder="Doe">
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-20">
+          <label>Email Address</label>
+        </div>
+        <div class="col-80">
+          <input type="text" name="email" placeholder="johndoe@example.com">
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-20">
+          <label>Subject</label>
+        </div>
+        <div class="col-80">
+          <textarea name="subject" style="height: 150px" placeholder="Write something here--"></textarea>
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="btnsubmit">Submit</button>
+      </div>
+
+    </form>
+    
+  </div>
+
+</section>
+
+</section>
+<h3 id="DarkModetext">Dark Mode is OFF</h3>
+<button onclick="darkMode()">Darkmode</button>
+<button onclick="lightMode()">LightMode</button>
+<script>
+  function darkMode() {
+    var element = document.body;
+    var content = document.getElementById("DarkModetext");
+    element.className = "dark-mode";
+    content.innerText = "Dark Mode is ON";
+  }
+  function lightMode() {
+    var element = document.body;
+    var content = document.getElementById("DarkModetext");
+    element.className = "light-mode";
+    content.innerText = "Dark Mode is OFF";
+  }
+</script>
+
+</body>
+</html>
