@@ -42,6 +42,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PhpstormProjects\Pam-Chromium\Images" />
+      <recent name="C:\Users\USER\PhpstormProjects\Pam-Chromium\JS" />
+      <recent name="C:\Users\USER\PhpstormProjects\Pam-Chromium" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PhpstormProjects\Pam-Chromium" />
     </key>
   </component>
   <component name="RunManager">
@@ -69,7 +74,8 @@
       <workItem from="1641985943985" duration="27429000" />
       <workItem from="1642156646429" duration="7040000" />
       <workItem from="1642397980977" duration="19526000" />
-      <workItem from="1642504526726" duration="5980000" />
+      <workItem from="1642504526726" duration="7627000" />
+      <workItem from="1642572557831" duration="25627000" />
     </task>
     <servers />
   </component>

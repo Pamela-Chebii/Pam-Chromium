@@ -97,7 +97,7 @@ label{
 .btnsubmit{
     width: 25%;
     float: right;
-    padding: 8px 8px;
+    padding: 8px;
     background-color: darkgreen;
     border: none;
 }
