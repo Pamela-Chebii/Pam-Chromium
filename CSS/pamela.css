@@ -8,7 +8,7 @@ form{
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
-    background-color: #adb5bd;
+    background-color: #f6f6f6;
 }
 .pstyle {
     padding: 10px;
@@ -28,15 +28,30 @@ nav li a{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #664d03;
+    background-color: #d0a242;
 }
 nav, section{
     padding: 3px;
     margin: 2px;
 }
 nav li a:hover{
-    background-color: #13653f;
+    background-color: #008080;
 }
 .flex-contain{
     display: flex;
+}
+table{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid dimgrey;
+}
+td, th{
+    border: 1px solid dimgrey;
+    text-align: center;
+    padding: 8px;
+}
+label{
+    display: inline-block;
+    padding: 4px 4px;
 }
