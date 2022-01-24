@@ -13,7 +13,18 @@ form{
 .pstyle {
     padding: 10px;
     margin: 5px;
+    font-family: -apple-system;
 }
+.navstyle{
+    overflow: visible;
+    position: fixed;
+    top: 0;
+}/*
+.mainstyle{
+    padding: 16px;
+    margin-top: 0px;
+    height: 1500px;
+}*/
 nav li{
     float: left;
 }
@@ -22,6 +33,7 @@ nav li a{
     text-decoration: none;
     padding: 10px 10px;
     display: block;
+    font-size: 17px;
 }
 .styleul{
     list-style-type: none;
