@@ -13,13 +13,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/htdocs/Chromiumphp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -46,6 +54,7 @@
       <recent name="C:\Users\USER\PhpstormProjects\Pam-Chromium" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PhpstormProjects\Pam-Chromium\CSS" />
       <recent name="C:\Users\USER\PhpstormProjects\Pam-Chromium" />
     </key>
   </component>
@@ -82,7 +91,22 @@
       <workItem from="1642751691337" duration="15926000" />
       <workItem from="1642786606638" duration="897000" />
       <workItem from="1642787541187" duration="2226000" />
-      <workItem from="1643010813429" duration="2968000" />
+      <workItem from="1643010813429" duration="8249000" />
+      <workItem from="1643104380366" duration="10926000" />
+      <workItem from="1643186249799" duration="437000" />
+      <workItem from="1643187046012" duration="13819000" />
+      <workItem from="1643228626803" duration="387000" />
+      <workItem from="1643229074457" duration="1794000" />
+      <workItem from="1643258594055" duration="21487000" />
+      <workItem from="1643287528512" duration="5320000" />
+      <workItem from="1643303361294" duration="1223000" />
+      <workItem from="1643350771547" duration="16368000" />
+      <workItem from="1643467629060" duration="12183000" />
+      <workItem from="1643567815137" duration="10340000" />
+      <workItem from="1643618603299" duration="6522000" />
+      <workItem from="1643633803528" duration="610000" />
+      <workItem from="1643647279171" duration="24000" />
+      <workItem from="1643798579561" duration="1915000" />
     </task>
     <servers />
   </component>

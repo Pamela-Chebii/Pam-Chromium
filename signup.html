@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="CSS/signup.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/jquery.min.js"></script>
+</head>
+<body>
+<div class="container-fluid bgstyle">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-6 col-md-4">
+            <form class="form-style">
+                <h3 class="p-2">Create Your Account</h3>
+                <div class=" row mb-2 p-2">
+                    <div class="col-6">
+                    <label for="fname" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="fname" aria-describedby="fname" placeholder="Enter First Name" required>
+                    </div>
+                    <div class="col-6">
+                    <label for="lname" class="form-label m-0">Last Name</label>
+                    <input type="text" class="form-control m-2" id="lname" aria-describedby="lname" placeholder="Enter Last Name" required>
+                    </div>
+                    </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label> <br>
+                    <input type="password" class="form-control" id="password" aria-describedby="password" placeholder="Enter Password" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <button type="submit" class="btn btn-primary float-end">
+                        <a class="login" href="login.html">Signup Now</a>
+                    </button>
+                </div>
+            </form>
+            <div>
+                <p class="center">
+                    If you have an account, Please <a href="login.html">Login Now</a>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
